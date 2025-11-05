@@ -50,5 +50,9 @@ We will release the core code for **Hearthfire**, **MASAQ**, and **Ysgrammor** a
 
 * **Stay Updated:** Follow this repository for official announcements regarding the opening of our projects to the community audit.
 * **Commercial Interest:** **Startups, SMEs, and institutions** interested in licensing the full **Winterhold** platform for guaranteed support, NIS2 compliance, and access to fine-tuned AI are invited to contact us.
+---
+* 
+## “Research & Collaboration” :
 
+“We are open to research collaborations with European institutions and inclusive tech ecosystems.”
 ---
