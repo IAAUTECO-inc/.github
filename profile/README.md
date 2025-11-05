@@ -1,10 +1,6 @@
 ## Hi there 👋
 
-Compris. Le message doit être celui d'un leader qui **construit** activement le futur, tout en gérant l'accès au code de manière stratégique.
 
-Voici la version anglaise du `README`, mettant en avant la vision d'**IA\_AUT\_ECO** et de **Hearthfire**, sans ouvrir explicitement les contributions ni les dépôts internes pour l'instant :
-
----
 
 # 🇫🇷 IA\_AUT\_ECO: The Augmented Autonomy Architecture (Open Source Deep Tech)
 
