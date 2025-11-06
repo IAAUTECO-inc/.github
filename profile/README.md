@@ -1,6 +1,7 @@
 ## Hi there 👋
+Compris. Je vais rédiger le `README` mis à jour d'**IA\_AUT\_ECO** en anglais, en intégrant tous les noms de code (Hearthfire, MASAQ, Ysgrammor, Skald, Dawnstar) et la stratégie Open Core, sans utiliser de tableaux ni ouvrir immédiatement les contributions.
 
-
+---
 
 # 🇫🇷 IA\_AUT\_ECO: The Augmented Autonomy Architecture (Open Source Deep Tech)
 
@@ -8,11 +9,9 @@
 
 We are building systems that guarantee **digital sovereignty**, **social inclusion**, and **uncompromising security**.
 
----
+## 💡 Our Commitment: Open Source for All
 
-## 💡 Our Commitment: Open Source for All, Especially Those in Need
-
-We are firm believers that the most critical assistance technologies (AI, Robotics) must be **auditable and enduring**. Our architecture is designed on an ethical **Open Core** model, where the technical foundations will eventually be made public to guarantee full trust and accountability.
+We are firm believers that the most critical assistance technologies (AI, Robotics) must be **auditable and enduring**. Our architecture is designed on an ethical **Open Core** model: the technical foundations will eventually be made public to guarantee full trust and accountability.
 
 * **The Core is Under Development:** Our open-source systems are currently in the initial design and hardening phase. We plan to open up the foundational repositories for community auditing and contributions at a later date.
 
@@ -20,36 +19,44 @@ We are firm believers that the most critical assistance technologies (AI, Roboti
 
 Trust is our currency. Our cybersecurity solutions are integrated by design, exceeding regulatory requirements.
 
-### The Dual OS Architecture (Based on a FreeBSD Fork)
+### The Winterhold Foundational Architecture
 
-We are developing two distinct operating systems, forked from FreeBSD for its renowned stability and security, to address different levels of criticality:
+The **Winterhold** ecosystem is our comprehensive offering, built upon several critical components, all currently under active development:
 
-1.  **Hearthfire (Community & Autonomy Edition):** Our future hardened OS, optimized for local execution, robotics, and assistance systems. It will be Open Source, minimalist, and focused on performance and resilience for the common good.
-2.  **Winterhold (Institutional & Enterprise Edition):** Our commercial, ultra-secure operating system, intended for **startups, forward-thinking institutions**, and entities handling sensitive data. It integrates advanced security mechanisms (PQC, ZTA) and full support for regulatory compliance.
+* **Hearthfire** 🔥: **The Hardened Security OS**. A core operating system (forked from FreeBSD) for local deployment and robotics, emphasizing Security by Design, Zéro Trust (ZTA), and PQC Readiness.
+* **MASAQ** 🤖: **The AI Orchestrator**. Manages the secure and auditable execution of Deep Learning models, focusing on SLM optimization and Knowledge Graph management.
+* **Ysgrammor** 👁️: **The Ethical Audit System**. Provides complete observability (OpenTelemetry) for all system actions and AI decisions, delivering **Proof of Intent** and ensuring NIS2 compliance.
+* **Skald** 🧠: **The Cognitive Agent**. The user-facing AI that utilizes GNNs and Semantic Synthesis for cognitive augmentation and personalized information simplification.
+* **DAWNSTAR** ✨: **The Mobility Agent**. A secure, ROS-compatible module for robotics assistance (e.g., smart wheelchairs), integrating functional safety and embedded NIS2/ISO/SBOM compliance.
 
 ### Guaranteed Compliance and Auditability
 
-* **AI Act:** Our AI Agents are being designed to meet future EU AI Act requirements, including rigorous risk classification and integrated ethical auditing mechanisms (**Ysgrammor**).
-* **NIS2:** The NIS2 Directive is integrated into the core of our development and deployment processes, ensuring maximum cyber-resilience.
-* **SBOM (Software Bill of Materials):** We will provide a comprehensive SBOM for every critical component, ensuring total transparency across our software supply chain.
+Our projects integrate European and international standards from the very beginning: the **AI Act**, **NIS2 Directive**, and **SBOM (Software Bill of Materials)** are central to our engineering.
 
 ## 🧠 The Deep Tech Vision: AI and Robotics for Daily Life
 
-Our approach goes beyond simple voice interfaces:
+Our approach goes beyond simple interfaces:
 
-* **Cognitive Augmentation (Skald Agent):** We utilize **Knowledge Graphs** and **Small LLMs (SLMs)** to transform complex information into **personalized semantic synthesis**, making critical information instantly accessible and actionable.
-* **Robotics and Drones:** Integration of our AI Agents with robotic platforms and drone systems to extend users' physical autonomy, all securely managed by the **Hearthfire** OS.
-
----
+* **Cognitive Augmentation:** **Skald** utilizes Deep Tech (GNN, SLM) to transform complex information into **personalized semantic synthesis**, making critical information instantly accessible.
+* **Assistance Robotics:** **DAWNSTAR** and **Hearthfire** form the sovereign platform guaranteeing the physical and digital security of users relying on robotic wheelchairs and other autonomy systems.
 
 ## 🛠️ Status and Next Steps
 
-This repository is currently utilized for **internal engineering and initial development**.
+This repository is currently utilized for **internal engineering and initial development** of the **Winterhold** architecture.
 
-We will release the core code for **Hearthfire**, **MASAQ**, and **Ysgrammor** as they reach an auditable maturity level.
+* We will release the core code (including **Hearthfire**, **MASAQ**, **Ysgrammor**, and **DAWNSTAR**) as they reach an auditable maturity level.
+* **Stay Updated:** Follow this repository for official announcements regarding the opening of our projects to community audit.
 
-* **Stay Updated:** Follow this repository for official announcements regarding the opening of our projects to the community audit.
-* **Commercial Interest:** **Startups, SMEs, and institutions** interested in licensing the full **Winterhold** platform for guaranteed support, NIS2 compliance, and access to fine-tuned AI are invited to contact us.
+## 💼 Commercial Licensing (Winterhold)
+
+**Startups, SMEs, and forward-thinking institutions** interested in licensing the full **Winterhold** platform are invited to contact us. This guarantees support, full NIS2 compliance, PQC updates, and access to the entire fine-tuned AI ecosystem.
+
+---
+
+Shall we now draft the `README` for **Koalix**, the ethical CRM for social data?
+
+
+
 ---
 * 
 ## “Research & Collaboration” :
