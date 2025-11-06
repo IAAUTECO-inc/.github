@@ -1,6 +1,7 @@
+
 ---
 
-## 🇫🇷 IA\_AUT\_ECO: The Augmented Autonomy Architecture (Open Source Deep Tech)
+# 🇫🇷 IA\_AUT\_ECO: The Augmented Autonomy Architecture (Open Source Deep Tech)
 
 **IA\_AUT\_ECO** is a Deep Tech startup based near Paris, France, dedicated to redefining the use of **Artificial Intelligence** and **Robotics**. Our mission is to build robust, open-source solutions for the daily lives and autonomy of **disabled and invalid persons**.
 
@@ -48,15 +49,4 @@ This repository is currently utilized for **internal engineering and initial dev
 
 **Startups, SMEs, and forward-thinking institutions** interested in licensing the full **Winterhold** platform are invited to contact us. This guarantees support, full NIS2 compliance, PQC updates, and access to the entire fine-tuned AI ecosystem.
 
----
-
-Shall we now draft the `README` for **Koalix**, the ethical CRM for social data?
-
-
-
----
-* 
-## “Research & Collaboration” :
-
-“We are open to research collaborations with European institutions and inclusive tech ecosystems.”
 ---
