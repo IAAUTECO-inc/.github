@@ -1,6 +1,3 @@
-## Hi there 👋
-Compris. Je vais rédiger le `README` mis à jour d'**IA\_AUT\_ECO** en anglais, en intégrant tous les noms de code (Hearthfire, MASAQ, Ysgrammor, Skald, Dawnstar) et la stratégie Open Core, sans utiliser de tableaux ni ouvrir immédiatement les contributions.
-
 ---
 
 # 🇫🇷 IA\_AUT\_ECO: The Augmented Autonomy Architecture (Open Source Deep Tech)
