@@ -1,3 +1,5 @@
+
+
 ---
 
 # 🇫🇷 IA\_AUT\_ECO: The Augmented Autonomy Architecture (Open Source Deep Tech)
@@ -54,6 +56,4 @@ This repository is currently utilized for **internal engineering and initial dev
 **Startups, SMEs, and forward-thinking institutions** interested in licensing the full **Winterhold** platform are invited to contact us. This guarantees support, full NIS2 compliance, PQC updates, and access to the entire fine-tuned AI ecosystem.
 
 ---
-
-Shall we now draft the `README` for **Koalix**, the ethical and sovereign CRM for social data?
 
