@@ -24,12 +24,17 @@ Trust is our currency. Our cybersecurity solutions are integrated by design, exc
 
 The **Winterhold** ecosystem is our comprehensive offering, built upon several critical components, all currently under active development:
 
-* **Hearthfire** 🔥: **The Hardened Security OS**. A core operating system (forked from FreeBSD) for local deployment and robotics, emphasizing **Security by Design**, **Zéro Trust (ZTA)**, and **PQC Readiness**.
-* **MASAQ** 🤖: **The AI Orchestrator**. Manages the secure and auditable execution of Deep Learning models. Focuses on SLM optimization and Knowledge Graph management.
-* **Ysgrammor** 👁️: **The Ethical Audit System**. Provides complete observability (**OpenTelemetry**) for all system actions and AI decisions, delivering **Proof of Intent** and ensuring **NIS2** compliance.
-* **Skald** 🧠: **The Cognitive Agent**. User-facing AI for simplification and cognitive augmentation (GNN, Semantic Synthesis).
-* **DAWNSTAR** ✨: **The Safe Mobility Agent**. A **ROS 2** module for the robotic wheelchair base, ensuring **NIS2/ISO/SBOM** compliant control and navigation.
-* **ESBERN** ✨: **The Augmented Robotic Agent (Companion)**. The robotic assistant that handles fine manipulation and interaction, working in synergy with **DAWNSTAR** on the **NVIDIA Jetson** platform.
+* **Hearthfire** : **The Hardened Security OS**. A core operating system (forked from FreeBSD) for local deployment and robotics, emphasizing **Security by Design**, **Zéro Trust (ZTA)**, and **PQC Readiness**.
+* **MASAQ** : **The AI Orchestrator**. Manages the secure and auditable execution of Deep Learning models. Focuses on SLM optimization and Knowledge Graph management.
+* **Ysgrammor** : **The Ethical Audit System**. Provides complete observability (**OpenTelemetry**) for all system actions and AI decisions, delivering **Proof of Intent** and ensuring **NIS2** compliance.
+* **Skald** : **The Cognitive Agent**. User-facing AI for simplification and cognitive augmentation (GNN, Semantic Synthesis).
+* **DAWNSTAR** : **The Safe Mobility Agent**. A **ROS 2** module for the robotic wheelchair base, ensuring **NIS2/ISO/SBOM** compliant control and navigation.
+* **ESBERN** : **The Augmented Robotic Agent (Companion)**. The robotic assistant that handles fine manipulation and interaction, working in synergy with **DAWNSTAR** on the **NVIDIA Jetson** platform.
+** DRAGONBORN** : is the demonstration application for the SKALD Cognitive Agent, designed to showcase the transformative power of Deep Learning in providing real-time sensory and cognitive assistance.
+
+Deployed across mobile platforms using TensorFlow Lite (TFLite), DRAGONBORN transcends simple object recognition. It translates the complexity of the visual world into simple, actionable semantic instructions and synthesized audio.
+
+This application is our "proof of concept" to the world: a powerful, accessible, and ethical use of AI that requires minimal technical overhead.
 
 ### Guaranteed Compliance and Auditability
 
