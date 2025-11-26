@@ -2,7 +2,7 @@
 
 ---
 
-# 🇫🇷 IA\_AUT\_ECO: The Augmented Autonomy Architecture (Open Source Deep Tech)
+#  IA\_AUT\_ECO: The Augmented Autonomy Architecture (Open Source Deep Tech)
 
 **IA\_AUT\_ECO** is a Deep Tech startup based near Paris, France, dedicated to redefining the use of **Artificial Intelligence** and **Robotics**. Our mission is to build robust, open-source solutions for the daily lives and autonomy of **disabled and invalid persons**.
 
