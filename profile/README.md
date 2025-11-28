@@ -1,64 +1,95 @@
 
 
----
+# IA_AUT_ECO: The Fabless Architecture for Augmented Autonomy
 
-#  IA\_AUT\_ECO: The Augmented Autonomy Architecture (Open Source Deep Tech)
+**"Let's be Useful."**
 
-**IA\_AUT\_ECO** is a Deep Tech startup based near Paris, France, dedicated to redefining the use of **Artificial Intelligence** and **Robotics**. Our mission is to build robust, open-source solutions for the daily lives and autonomy of **disabled and invalid persons**.
+IA_AUT_ECO is a French Deep Tech company dedicated to redefining assistive technology. We operate on a **Fabless model**: we design the sovereign architecture, the secure software, and the hardware standards, while certifying partners for manufacturing.
 
-We are building systems that guarantee **digital sovereignty**, **social inclusion**, and **uncompromising security**.
-
----
-
-##  Our Commitment: Open Source for All
-
-We are firm believers that the most critical assistance technologies (AI, Robotics) must be **auditable and enduring**. Our architecture is designed on an ethical **Open Core** model: the technical foundations will eventually be made public to guarantee full trust and accountability.
-
-* **The Core is Under Development:** Our open-source systems are currently in the initial design and hardening phase. We plan to open up the foundational repositories for community auditing and contributions at a later date.
-
-##  Uncompromising Security: A Sovereign Digital Shield
-
-Trust is our currency. Our cybersecurity solutions are integrated by design, exceeding regulatory requirements.
-
-### The Winterhold Foundational Architecture
-
-The **Winterhold** ecosystem is our comprehensive offering, built upon several critical components, all currently under active development:
-
-* **Hearthfire** : **The Hardened Security OS**. A core operating system (forked from FreeBSD) for local deployment and robotics, emphasizing **Security by Design**, **Zéro Trust (ZTA)**, and **PQC Readiness**.
-* **MASAQ**      : **The AI Orchestrator**. Manages the secure and auditable execution of Deep Learning models. Focuses on SLM optimization and Knowledge Graph management.
-* **Ysgrammor**  : **The Ethical Audit System**. Provides complete observability (**OpenTelemetry**) for all system actions and AI decisions, delivering **Proof of Intent** and ensuring **NIS2** compliance.
-* **Skald**      : **The Cognitive Agent**. User-facing AI for simplification and cognitive augmentation (GNN, Semantic Synthesis).
-* **DAWNSTAR**   : **The Safe Mobility Agent**. A **ROS 2** module for the robotic wheelchair base, ensuring **NIS2/ISO/SBOM** compliant control and navigation.
-* **ESBERN**     : **The Augmented Robotic Agent (Companion)**. The robotic assistant that handles fine manipulation and interaction, working in synergy with **DAWNSTAR** on the **NVIDIA Jetson** platform.
-* **DRAGONBORN**   : is the demonstration application for the **SKALD Cognitive Agent**, designed to showcase the transformative power of Deep Learning in providing real-time sensory and cognitive assistance.
-
-Deployed across mobile platforms using TensorFlow Lite (TFLite), **DRAGONBORN** transcends simple object recognition. It translates the complexity of the visual world into simple, actionable semantic instructions and synthesized audio.
-
-This application is our "proof of concept" to the world: a powerful, accessible, and ethical use of AI that requires minimal technical overhead.
-
-### Guaranteed Compliance and Auditability
-
-Our projects integrate European and international standards from the very beginning: the **AI Act**, **NIS2 Directive**, and **SBOM (Software Bill of Materials)** are central to our engineering.
-
-##  The Deep Tech Vision: AI and Robotics for Daily Life
-
-Our approach goes beyond simple interfaces:
-
-* **Cognitive Augmentation:** **Skald** utilizes Deep Tech to transform complex information into **personalized semantic synthesis**, making critical information instantly accessible.
-* **Robotic Autonomy:** The **DAWNSTAR** and **ESBERN** system creates a cohesive, sovereign platform, guaranteeing the physical and digital security of users relying on advanced robotic assistance.
+Our mission is to build the **Winterhold Ecosystem**: a secure, open-source, and ethical foundation for the autonomy of disabled and invalid persons. We provide the "Brain" and the "Nervous System" for the next generation of assistive robotics.
 
 ---
 
-##  Status and Next Steps
+## The Winterhold Framework: Sovereignty & Security
 
-This repository is currently utilized for **internal engineering and initial development** of the **Winterhold** architecture.
+Winterhold is not just software; it is a comprehensive architecture designed for **Zero Trust (ZTA)** environments, **NIS2** compliance, and **Post-Quantum Cryptography (PQC)** readiness.
 
-* We will release the core code (including **Hearthfire**, **MASAQ**, **Ysgrammor**, **DAWNSTAR**, and **ESBERN**) as they reach an auditable maturity level.
-* **Stay Updated:** Follow this repository for official announcements regarding the opening of our projects to community audit.
+### 1. Hearthfire (The Hardened OS)
+The foundation of our security. A minimalist, hardened **FreeBSD Fork** compatible with **OCI (Open Container Initiative)** standards.
+* **Role:** Provides a secure, deterministic environment for embedded AI and real-time control.
+* **Security:** Implements kernel-level PQC encryption and strict process isolation.
 
-##  Commercial Licensing (Winterhold)
+### 2. MASAQ & Skald (The AI Core)
+* **MASAQ:** The secure orchestration engine that manages Deep Learning models on Edge devices (NVIDIA Jetson).
+* **Skald:** The Cognitive Agent. It uses Small Language Models (SLMs) and Graph Neural Networks (GNNs) to transform complex data into simple, actionable intentions.
 
-**Startups, SMEs, and forward-thinking institutions** interested in licensing the full **Winterhold** platform are invited to contact us. This guarantees support, full NIS2 compliance, PQC updates, and access to the entire fine-tuned AI ecosystem.
+### 3. Ysgrammor (The Ethical Audit)
+A real-time observability system based on OpenTelemetry. It records the "Proof of Intent" for every AI decision, ensuring full auditability for medical and legal compliance.
 
+### 4. Delphine (The Sovereign Data Core)
+An on-premise, ethical CRM and polyglot database designed to manage critical social and medical data without relying on public clouds.
+
+---
+
+## The Robotic Agents: Dawnstar & Esbern
+
+We provide the certified designs and software stacks for two complementary hardware agents.
+
+### DAWNSTAR: The Safe Mobility Agent
+A set of **ROS 2** packages and hardware standards for robotic wheelchairs.
+* **Focus:** Critical safety, slope calculation, speed limiting, and semantic navigation.
+* **Tech:** Uses PyTorch for vision and scikit-learn for anomaly detection.
+
+### ESBERN: The Robotic Companion
+
+
+[Image of robotic arm on wheelchair]
+
+A mobile manipulator agent (robotic arm) that works in synergy with Dawnstar.
+* **Focus:** Fine manipulation (grasping, door opening) and environment interaction.
+* **Hardware:** Powered by NVIDIA Jetson for heavy edge computing.
+
+---
+
+## Companion Software Suite: Holistic Cognitive Assurance
+
+Beyond simple navigation, the Esbern/Dawnstar system runs a suite of "Holistic Modules" designed to act as a cognitive prosthesis for conditions like Alzheimer's, Autism, or heavy disability.
+
+* **MNEMOSYNE (Memory):** A local RAG system that records and indexes daily life to answer queries like "Where did I put my glasses?" or "Who visited yesterday?".
+* **VESTA (Routine):** Proactive ADL (Activities of Daily Living) monitoring. Detects degradation in habits (hydration, sleep) and alerts before a crisis occurs.
+* **KAIROS (Reality):** Manages confusion and "sundowning" phases using validation therapy techniques and environmental adaptation (lighting/music).
+* **HERMES (Social):** A real-time social decoder for aphasia and autism, whispering context about interlocutors and predicting sentence completion.
+* **HYGIE (Pharma):** High-precision visual identification of medication intake and passive biometric monitoring to ensure compliance and safety.
+
+---
+
+## Dragonborn: Universal Access (Mobile Demo)
+
+**Dragonborn** is our mass-market demonstration of the Skald Cognitive Agent.
+* **Platform:** Android (Kotlin) / iOS.
+* **Tech:** Runs optimized **TFLite** models via a **Go** backend.
+* **Function:** Translates the visual world into simple semantic instructions and audio, proving that powerful AI can be accessible on standard smartphones without the full Winterhold stack.
+
+---
+
+## The Fabless Business Model
+
+IA_AUT_ECO focuses on high-value engineering and certification.
+
+1.  **Open Design:** We release 3D blueprints (STEP/CAD), electrical schematics, and core software components to the community.
+2.  **Winterhold Certification:** We license the **Winterhold** brand and commercial software support to manufacturing partners who pass our rigorous **DAWNSTAR-QC** testing suite and adhere to our component standards (NVIDIA Jetson, specific IMUs, ISO-compliant materials).
+
+## Status
+
+**Current Phase:** Internal Engineering & Architecture Hardening.
+* Validating Hearthfire kernel modifications.
+* Training Skald/Mnemosyne models on NVIDIA Jetson.
+* Developing the Dragonborn mobile prototype.
+
+## Contact & Licensing
+
+For partnerships, Fabless certification inquiries, or institutional licensing of the Winterhold framework (Municipalities, NGOs), please contact the IA_AUT_ECO team.
+
+**Secure. Sovereign. Useful.**
 ---
 
