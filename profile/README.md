@@ -1,71 +1,74 @@
-#  IA\_AUT\_ECO: The Fabless Architecture for Augmented Autonomy
+# The Winterhold Framework: Sovereign Architectures for Critical Autonomy
 
-**IA\_AUT\_ECO** is a French **Deep Tech** company specializing in the design of secure architectures for critical robotic and cognitive assistance.
-
-We operate on a **Fabless** and **B2C Premium** model: we design the sovereign software, provide the safety standards (ISO, NIS 2), and certify a network of approved companies for hardware installation and maintenance.
-
-**Our Motto:** *Let's be Useful. Cognitive Life Insurance.*
+**Status:** Research and Development Alpha / Institutional Deployment Candidate (2026)
+**License:** Custom IA_AUT_ECO Ethical License / AI B Act Adherent
+**Core Maintainer:** IA_AUT_ECO (Meaux, France)
 
 ---
 
-## 🛡️ The WINTERHOLD Framework: The Trust Infrastructure
+## 1. Executive Summary: Engineering Trust
 
-The **WINTERHOLD** architecture is the guarantor of resilience, security, and auditability for the entire ecosystem.
+The **Winterhold Framework** is a French Deep Tech engineering solution establishing the **sovereign software standard** for next-generation assistive robotics and critical autonomy systems.
 
-### 1. The System Core
-* **HEARTHFIRE (Hardened OS):** A minimalist **FreeBSD Fork** serving as the critical OS. It enforces a **Zero Trust Architecture (ZTA)**, strict process isolation, and integrates **Post-Quantum Cryptography (PQC)** for future resilience.
-* **FORT GRAYMOR (IoT/Edge Hub):** The central pivot. Also built on **FreeBSD**, it acts as a secure, redundant gateway. It filters, validates, and normalizes encrypted events from the sensors (Jetson-Net) before transmitting them to the AI backend.
-* **DELPHINE (Data Core):** The sovereign **On-Premise** database for the ethical management of critical data (medical and social).
+This framework addresses the systemic vulnerability of current assistive technologies by prioritizing **resilience, auditability, and data sovereignty** over feature commoditization. We ensure that physical safety and cognitive data integrity meet the requirements of national critical infrastructure.
 
-### 2. Intelligence and Audit
-* **MASAQ:** The AI orchestrator that manages model inference on **NVIDIA Jetson** chips and enterprise-level servers. It handles CPU/GPU redundancy (AMD/Intel/NVIDIA) for service continuity.
-* **SKALD:** The primary Cognitive Agent. It uses **SLMs** and **GNNs** to translate raw data into **Semantic Intentions** (e.g., translating "pixels" into "turn right now").
-* **YSGRAMMOR:** The ethical audit module. It traces the entirety of the AI's decision cycle (Proof of Intent), essential for compliance and legal accountability.
+### Foundational Commitments (NIS2, PQC, AI Act)
+
+* **Zero Trust Architecture (ZTA):** A fundamental security model eliminating implicit trust, enforced at the Kernel and Edge level.
+* **Post-Quantum Cryptography (PQC):** Native embedding of PQC primitives to secure long-term data integrity against theoretical quantum threats.
+* **AI Act Compliance:** Built-in mechanism (Ysgrammor) enabling full decision-making traceability for compliance with High-Risk AI system requirements.
 
 ---
 
-## 🤖 The Physical and Software Agents
+## 2. Architectural Design
 
-The architecture supports a set of physical and cognitive agents designed for autonomy.
+Winterhold operates on an **Open Core** methodology, providing a demonstrably verifiable core for institutional partners and certified manufacturers.
 
-### Robotic Agents (Certified Hardware)
-* **DAWNSTAR:** The mobility agent (robotic wheelchair). It executes navigation, critical motor control, and sensor fusion (ROS 2).
-* **ESBERN:** The manipulator agent (robotic companion arm). Ensures fine physical interactions with the environment. 
+### 2.1. Hearthfire: The Hardened Core OS
 
-[Image of robotic arm on wheelchair]
+A dedicated fork of **FreeBSD** engineered for embedded, real-time, and functional safety-critical robotics applications.
 
+* **Objective:** Minimize the attack surface and ensure deterministic performance.
+* **Implementation:** Incorporates advanced Kernel Hardening techniques, Mandatory Access Controls (MAC), and secure boot processes optimized for embedded hardware (e.g., NVIDIA Jetson platform).
 
-### "Companion" Software Suite (Premium Cognitive Modules)
-These heavy modules are the core of the B2C premium subscription:
-* **MNEMOSYNE:** Total memory prosthesis (local RAG) and indexing of daily events.
-* **VESTA:** Guardian of routines and detection of anomaly in habits.
-* **KAIROS:** Reality anchor and management of confusion states.
-* **HERMES:** Social decoder and communication assistance.
-* **HYGIE:** Pharmacological vigilance and compliance via computer vision.
+### 2.2. Fort Graymor: The Secure Edge Hub
 
-### Universal Demonstration
-* **DRAGONBORN:** The mobile application (Kotlin/Go/TFLite) that demonstrates the power of **SKALD** on a consumer smartphone. It translates the visual world into semantic instructions.
+The certified communication and orchestration layer responsible for maintaining system integrity and external security.
 
----
+* **Function:** Enforces Mutual TLS (mTLS), manages PQC key rotation, and serves as the **NIS2 resilience component**, managing incident logging and reporting protocols.
 
-## 🤝 Premium B2C Model & Delegated Maintenance
+### 2.3. MASAQ and Skald: Sovereign Intelligence Orchestration
 
-Our Deep Tech model is directly linked to a premium service, without the burden of massive B2C maintenance payroll.
+Modules for optimized inference and cognitive process management on the Edge.
 
-* **Product:** A resilient life infrastructure (redundant servers, dual-circuit Jetson/equivalent cameras, external drone potential).
-* **Distribution:** Direct B2C sales, but physical installation and maintenance are delegated to a network of **Approved Companies** trained and audited by IA\_AUT\_ECO.
-* **Revenue:** Focused on **Security and Cognitive Service Subscriptions** (PQC, AI updates) rather than relying solely on single-unit hardware margin.
+* **MASAQ:** Manages resource allocation for low-latency inference on embedded systems.
+* **Skald:** The core cognitive agent utilizing Small Language Models (SLMs) and Graph Neural Networks (GNNs) for semantic translation and critical command execution.
+
+### 2.4. Ysgrammor: The Audit Engine
+
+A dedicated, immutable logging module providing verifiable proof of every AI decision executed by Skald.
+
+* **Mandate:** Fulfills the EU AI Act's requirement for transparency and accountability in High-Risk AI deployments.
 
 ---
 
-## 🛠️ Key Technical Stack
+## 3. Application and Deployment
 
-* **OS/Security:** FreeBSD (Hearthfire/Fort Graymor), ZTA, mTLS, PQC.
-* **AI/Edge:** NVIDIA Jetson, Go, Python, TFLite, SLM.
-* **Robotics:** ROS 2, C++, Sensor Fusion.
-* **Orchestration:** Kestra (Monitoring, SBOM).
+The Winterhold Framework is the certified software core for deployments in:
+
+* **DAWNSTAR:** Certified robotic mobility agents.
+* **ESBERN:** High-precision manipulation systems.
+* **Cognitive Augmentation:** Localized Retrieval-Augmented Generation (RAG) systems (MNEMOSYNE) for memory prosthesis and anomaly detection (VESTA).
+
+### 3.1. Ecosystem Interoperability
+
+The architecture is designed to support secure, decoupled interoperability with specialized administrative systems, such as the Koalix CRM fork, **Arngeir**, maintaining a clear functional separation between critical life-safety and institutional management layers.
 
 ---
 
-We are seeking partners and investors who share our vision of sovereignty and utility.
+## 4. Institutional and Technical Contribution
 
+IA\_AUT\_ECO prioritizes collaboration with specialized expertise. We seek contributions that enhance the system's security profile and technical depth.
+
+* **Areas of Focus:** FreeBSD systems programming, Post-Quantum Cryptography implementation, ROS 2 Safety Layer development, and low-level embedded system optimization.
+* **Protocol:** All contributions are subject to rigorous security and architectural audit to uphold NIS2 compliance and critical safety rating.
