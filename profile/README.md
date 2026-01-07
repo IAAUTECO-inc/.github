@@ -1,72 +1,73 @@
-# The Winterhold Framework: Sovereign Architectures for Critical Autonomy
+# IA_AUT_ECO: Sovereign Ecosystem for Critical Autonomy
 
-**Status:** Research and Development Alpha / Institutional Deployment Candidate (2029)
-**License:** Custom IA_AUT_ECO Ethical License / AI B Act Adherent
-**Core Maintainer:** IA_AUT_ECO (Meaux, France)
+## 1. Executive Summary
+IA_AUT_ECO is a French Deep Tech initiative founded on 45 years of self-taught expertise and over two decades of advanced Unix/Linux systems engineering. We provide a sovereign, full-stack infrastructure designed to transform the mobility and autonomy of people with disabilities through high-security robotics and ethical AI.
 
----
-
-## 1. Executive Summary: Engineering Trust
-
-The **Winterhold Framework** is a French Deep Tech engineering solution establishing the **sovereign software standard** for next-generation assistive robotics and critical autonomy systems. 
-
-The framework prioritizes **resilience, auditability, and data sovereignty**, ensuring that physical safety and cognitive data integrity meet the requirements of national critical infrastructure and the European AI Act.
-
-### Foundational Commitments (NIS2, PQC, AI Act)
-
-* **Zero Trust Architecture (ZTA):** A fundamental security model eliminating implicit trust, enforced at the Kernel and Edge level.
-* **Post-Quantum Cryptography (PQC):** Native embedding of PQC primitives to secure long-term data integrity against quantum threats.
-* **AI Act Compliance:** The Ysgrammor engine provides full decision-making traceability for High-Risk AI system requirements.
+Our ecosystem bridges the gap between low-level kernel security and high-level cognitive assistance, ensuring that technical performance remains at the service of human dignity and digital sovereignty.
 
 ---
 
-## 2. Architectural Design
+## 2. Core Pillar: Winterhold OS
+**Winterhold** is not a library or a framework; it is a **hardened Operating System** based on a specialized fork of **FreeBSD**. It serves as the secure foundation for all autonomous agents in the ecosystem.
 
-Winterhold operates on an **Open Core** methodology, providing a verifiable core for institutional partners and certified manufacturers.
 
-### 2.1. Hearthfire: The Hardened Core OS
-A dedicated fork of **FreeBSD** engineered for embedded, real-time, and functional safety-critical robotics. It focuses on minimizing the attack surface through Kernel Hardening and Mandatory Access Controls (MAC).
 
-### 2.2. Fort Graymor: The Secure Edge Hub
-The certified communication layer enforcing Mutual TLS (mTLS) and managing PQC key rotation. It serves as the primary **NIS2 resilience component**.
+### 2.1. Kernel-Level Security & Resilience
+Winterhold OS leverages the advanced security primitives of the FreeBSD kernel to isolate critical robotic functions:
+* **Sandboxing & Isolation:** Extensive use of **Capsicum** (capability-based security) and **Jails** to ensure that AI agents operate in strictly defined, non-overlapping environments.
+* **Mandatory Access Control (MAC):** Fine-grained policies protecting hardware peripherals (LiDAR, CAN bus, NPU) from unauthorized access.
+* **Deterministic Execution:** The **Hearthfire** kernel module ensures real-time responsiveness required for life-safety mobility.
 
-### 2.3. MASAQ and Skald: Sovereign Intelligence Orchestration
-Modules for optimized Edge inference using Small Language Models (SLMs) and Graph Neural Networks (GNNs) for semantic translation and critical command execution.
-
-### 2.4. Ysgrammor: The Audit Engine
-An immutable logging module providing verifiable proof of every AI decision, ensuring transparency and accountability.
-
----
-
-## 3. Future Roadmap: The AI Password Protocol
-
-Starting with version 2.0 (Target: 2027), the Winterhold Framework will introduce the **AI Password** protocol. 
-
-### 3.1. Concept and Implementation
-The **AI Password** is a high-security Cognitive Authentication Layer designed to authorize critical or irreversible AI-driven actions. Unlike traditional authentication, it utilizes a multi-factor neural handshake:
-* **Intent Verification:** Correlating user commands with real-time biometric and situational telemetry.
-* **Secure Override:** Providing a cryptographic "fail-safe" that allows an authorized operator to override autonomous decisions in high-risk scenarios.
-* **Neural Signature:** Integrating unique, non-spoofable authentication markers generated at the Edge to prevent unauthorized command injection.
-
-### 3.2. Strategic Impact
-This protocol is designed to address future security challenges in human-robot interaction, ensuring that the agency of the individual remains protected against both external interference and algorithmic drift.
+### 2.2. Native AI Integration
+Unlike generic operating systems, Winterhold OS features native integration for:
+* **Embedded Agents:** Native execution of **Skald** (Intent Translation) and **Masaq** (Inference Orchestration).
+* **Direct Hardware Acceleration:** Low-level drivers for NVIDIA Jetson (CUDA/TensorRT) and mobile NPUs, optimized for Edge inference.
 
 ---
 
-## 4. Application and Deployment
+## 3. Institutional Infrastructure: Ivarsread
+**Ivarsread** is our central **Federated Analytics & Insight Server**, currently positioned as a candidate for the **Linux Foundation** (LF AI & Data).
 
-The Winterhold Framework is the certified software core for:
-* **DAWNSTAR:** Certified robotic mobility agents.
-* **ESBERN:** High-precision manipulation systems.
-* **Cognitive Augmentation:** Localized RAG systems (MNEMOSYNE) and anomaly detection (VESTA).
 
-### 4.1. Ecosystem Interoperability
-The architecture supports secure, decoupled interoperability with specialized administrative systems, such as **Arngeir**, maintaining a clear functional separation between life-safety and institutional management layers.
+
+* **Purpose:** Provides institutional-scale data processing for fleets of Winterhold-powered robots.
+* **Sovereignty:** Operates strictly on-premise to ensure no sensitive medical or behavioral data leaves the institution.
+* **Ethics:** Uses **Federated Learning** to improve global models while keeping raw data localized on the Edge.
+* **Governance:** Open Source (Apache 2.0) to establish a transparent industry standard for assistive technology analytics.
 
 ---
 
-## 5. Institutional and Technical Contribution
+## 4. Commercial Interface: Dragonborn
+**Dragonborn** is the **Commercial Mobile Companion** application for the IA_AUT_ECO ecosystem. 
 
-IA_AUT_ECO prioritizes collaboration with specialized expertise in FreeBSD systems programming, PQC implementation, and ROS 2 Safety Layer development.
+* **Function:** A high-value, proprietary interface allowing users and caregivers to interact with autonomous agents.
+* **Features:** Real-time monitoring, accessibility personalization, and secure command injection via the **AI Password** protocol.
+* **Market Position:** Commercial service layer providing the "User Experience" (UX) of our sovereign technology.
 
-**Note:** All contributions are subject to rigorous security and architectural audit to uphold NIS2 compliance and critical safety ratings.
+---
+
+## 5. Specialized Autonomous Agents
+Our agents are specialized software modules running natively on Winterhold OS:
+
+| Agent | Domain | Key Technology |
+| :--- | :--- | :--- |
+| **DAWNSTAR** | Global Mobility | LiDAR SLAM / OpenStreetMap Integration |
+| **ESBERN** | Precision Manipulation | Visual Servoing / 6-DOF Kinematics |
+| **VESTA** | Anomaly Detection | Temporal Transformers / Behavioral Audit |
+
+---
+
+## 6. Strategic Compliance & Standards
+Every component of the IA_AUT_ECO ecosystem is engineered to meet and exceed global regulatory standards:
+* **NIS 2 Directive:** High-level resilience for healthcare and critical infrastructure.
+* **EU AI Act:** Native traceability through the **Ysgrammor** protocol (Immutable Logging).
+* **Digital Sovereignty:** Zero-dependency on proprietary US or Asian Cloud providers.
+
+---
+
+## 7. About the Founder
+Built on a legacy starting in 1977, the IA_AUT_ECO mission is driven by a polyglot programmer (C/C++, Java, Python, SQL) and an advocate for ethical computing. We leverage technical innovation to solve the most pressing challenges of human autonomy.
+
+---
+**Contact & Collaboration:** contact@iaauteco.ovh
+**Location:** Meaux, France.
