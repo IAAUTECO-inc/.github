@@ -1,73 +1,66 @@
+
 # IA_AUT_ECO: Sovereign Ecosystem for Critical Autonomy
 
 ## 1. Executive Summary
-IA_AUT_ECO is a French Deep Tech initiative founded on 45 years of self-taught expertise and over two decades of advanced Unix/Linux systems engineering. We provide a sovereign, full-stack infrastructure designed to transform the mobility and autonomy of people with disabilities through high-security robotics and ethical AI.
-
-Our ecosystem bridges the gap between low-level kernel security and high-level cognitive assistance, ensuring that technical performance remains at the service of human dignity and digital sovereignty.
+IA_AUT_ECO is a French Deep Tech initiative built on 45 years of technical expertise and 20+ years of Unix/Linux systems engineering. We provide a sovereign, full-stack infrastructure—from the hardened operating system to federated analytics—designed to empower people with disabilities through high-security robotics and ethical AI.
 
 ---
 
-## 2. Core Pillar: Winterhold OS
-**Winterhold** is not a library or a framework; it is a **hardened Operating System** based on a specialized fork of **FreeBSD**. It serves as the secure foundation for all autonomous agents in the ecosystem.
+## 2. Core Pillar: Winterhold OS (Hardened FreeBSD Fork)
+**Winterhold** is the secure foundation of our ecosystem. As a specialized fork of **FreeBSD**, it provides the kernel-level isolation and deterministic execution required for life-safety autonomous agents.
 
-
-
-### 2.1. Kernel-Level Security & Resilience
-Winterhold OS leverages the advanced security primitives of the FreeBSD kernel to isolate critical robotic functions:
-* **Sandboxing & Isolation:** Extensive use of **Capsicum** (capability-based security) and **Jails** to ensure that AI agents operate in strictly defined, non-overlapping environments.
-* **Mandatory Access Control (MAC):** Fine-grained policies protecting hardware peripherals (LiDAR, CAN bus, NPU) from unauthorized access.
-* **Deterministic Execution:** The **Hearthfire** kernel module ensures real-time responsiveness required for life-safety mobility.
-
-### 2.2. Native AI Integration
-Unlike generic operating systems, Winterhold OS features native integration for:
-* **Embedded Agents:** Native execution of **Skald** (Intent Translation) and **Masaq** (Inference Orchestration).
-* **Direct Hardware Acceleration:** Low-level drivers for NVIDIA Jetson (CUDA/TensorRT) and mobile NPUs, optimized for Edge inference.
+* **Security:** Native integration of **Capsicum** and **Jails** for agent sandboxing.
+* **Resilience:** Real-time priority management via the **Hearthfire** kernel module.
+* **Integrity:** Zero-Trust architecture enforced at the driver level.
 
 ---
 
-## 3. Institutional Infrastructure: Ivarsread
-**Ivarsread** is our central **Federated Analytics & Insight Server**, currently positioned as a candidate for the **Linux Foundation** (LF AI & Data).
+## 3. OpenChain Compliance & Governance (ISO/IEC 5230)
+IA_AUT_ECO is committed to the highest standards of open-source supply chain management. We align our operations with the **OpenChain Specification (ISO/IEC 5230:2020)** to guarantee legal transparency and security.
+
+### 3.1. License Policy
+* **Infrastructure (Ivarsread):** Licensed under **Apache License 2.0** for institutional interoperability.
+* **OS Core (Winterhold):** Hardened FreeBSD fork following the original permissive BSD license structure with proprietary security enhancements for the commercial layer.
+* **AI Assets:** All deep learning models follow an **OpenChain-compatible** traceability matrix (Licenses: MIT, Apache 2.0).
+
+### 3.2. Supply Chain Integrity
+* **SBOM (Software Bill of Materials):** We maintain a comprehensive inventory of all third-party components and neural weight origins.
+* **DCO (Developer Certificate of Origin):** All contributions must be signed-off (`git commit -s`) to certify code provenance.
+* **Vulnerability Management:** Strict adherence to our `SECURITY.md` protocol for coordinated disclosure.
 
 
-
-* **Purpose:** Provides institutional-scale data processing for fleets of Winterhold-powered robots.
-* **Sovereignty:** Operates strictly on-premise to ensure no sensitive medical or behavioral data leaves the institution.
-* **Ethics:** Uses **Federated Learning** to improve global models while keeping raw data localized on the Edge.
-* **Governance:** Open Source (Apache 2.0) to establish a transparent industry standard for assistive technology analytics.
 
 ---
 
-## 4. Commercial Interface: Dragonborn
-**Dragonborn** is the **Commercial Mobile Companion** application for the IA_AUT_ECO ecosystem. 
+## 4. The Ecosystem Components
 
-* **Function:** A high-value, proprietary interface allowing users and caregivers to interact with autonomous agents.
-* **Features:** Real-time monitoring, accessibility personalization, and secure command injection via the **AI Password** protocol.
-* **Market Position:** Commercial service layer providing the "User Experience" (UX) of our sovereign technology.
+### 4.1. Ivarsread (Open Source Analytics)
+Candidate for **LF AI & Data (Linux Foundation)**, Ivarsread is a federated analytics server providing institutional-scale insights while maintaining 100% data residency on-premise.
 
----
+### 4.2. Dragonborn (Commercial Companion)
+The proprietary user interface layer, providing a secure and accessible bridge between the end-user and Winterhold-powered agents.
 
-## 5. Specialized Autonomous Agents
-Our agents are specialized software modules running natively on Winterhold OS:
-
-| Agent | Domain | Key Technology |
-| :--- | :--- | :--- |
-| **DAWNSTAR** | Global Mobility | LiDAR SLAM / OpenStreetMap Integration |
-| **ESBERN** | Precision Manipulation | Visual Servoing / 6-DOF Kinematics |
-| **VESTA** | Anomaly Detection | Temporal Transformers / Behavioral Audit |
+### 4.3. Specialized Agents
+* **DAWNSTAR:** Autonomous mobility (OSM-native).
+* **ESBERN:** High-precision robotic manipulation.
+* **VESTA:** Behavioral anomaly detection for patient safety.
 
 ---
 
-## 6. Strategic Compliance & Standards
-Every component of the IA_AUT_ECO ecosystem is engineered to meet and exceed global regulatory standards:
-* **NIS 2 Directive:** High-level resilience for healthcare and critical infrastructure.
-* **EU AI Act:** Native traceability through the **Ysgrammor** protocol (Immutable Logging).
-* **Digital Sovereignty:** Zero-dependency on proprietary US or Asian Cloud providers.
+## 5. Technical Strategy: Security & Ethics
+* **Edge-Only AI:** No sensitive data ever leaves the local Winterhold environment.
+* **Federated Learning:** Model improvements are aggregated anonymously via Ivarsread.
+* **AI Act Readiness:** The **Ysgrammor** protocol ensures full causal traceability for every autonomous decision.
 
 ---
 
-## 7. About the Founder
-Built on a legacy starting in 1977, the IA_AUT_ECO mission is driven by a polyglot programmer (C/C++, Java, Python, SQL) and an advocate for ethical computing. We leverage technical innovation to solve the most pressing challenges of human autonomy.
+## 6. Project Governance
+IA_AUT_ECO operates under a technical meritocracy. We invite collaboration from experts in:
+* Hardened Unix kernels (FreeBSD/HardenedBSD).
+* Federated Learning and Edge AI optimization.
+* ISO/IEC 5230 compliance and Open Source legal engineering.
 
 ---
-**Contact & Collaboration:** contact@iaauteco.ovh
+**Founder:** Polyglot Programmer (C/C++, Python, SQL) | Unix Expert since 1977.
 **Location:** Meaux, France.
+**Contact:** contact@iaauteco.ovh
