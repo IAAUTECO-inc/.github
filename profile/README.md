@@ -82,7 +82,7 @@ Focus: Safety (operational reliability), resilient distributed systems, and prot
 [Sovereign_AI_Transhumanism.pdf](https://github.com/user-attachments/files/25595695/Sovereign_AI_Transhumanism.pdf)
 [From_Japanese_Sentinel_to_European_Resilience.pdf](https://github.com/user-attachments/files/25595687/From_Japanese_Sentinel_to_European_Resilience.pdf)
 [AEGIS_WhitePaper.pdf](https://github.com/user-attachments/files/25595682/AEGIS_WhitePaper.pdf)
-3. Normative Framework and Supply Chain Governance
+# 3. Normative Framework and Supply Chain Governance
 The integrity of the framework is governed by the OpenChain (ISO/IEC 5230) standard. Every component, from low-level C++ layers to Java/Go interfaces, is subject to a software supply chain compliance audit (Software Bill of Materials - SBOM).
 
 Reference: Sovereign Artificial Intelligence in Service of Autonomy and Inclusion (February 2026).
