@@ -61,6 +61,34 @@ IA_AUT_ECO operates under a technical meritocracy. We invite collaboration from 
 * ISO/IEC 5230 compliance and Open Source legal engineering.
 
 ---
+## Foundations and Engineering Doctrine
+The AEGIS (Auditable Engineering Governance for Intelligent Systems) framework is not designed as a mere software library, but as the operational implementation of an engineering doctrine dedicated to critical and sovereign systems. Its architecture is built upon three documentary and normative pillars:
+
+## 1. The AEGIS Method (Compliance-by-Design)
+The development of this framework strictly follows the six methodological blocks defined in the AEGIS White Paper v1.0. This approach ensures full traceability between regulatory requirements—specifically the EU AI Act—and technical implementation.
+
+Reference: AEGIS: A Compliant, Sovereign and Auditable AI Engineering Method by Design (February 2026).
+
+Focus: Algorithmic determinism, system isolation, and continuous auditability.
+
+## 2. Sovereignty and Infrastructural Resilience
+In response to global demographic transitions and the increasing strain on healthcare infrastructures, AEGIS prioritizes total system autonomy. The choice of the FreeBSD kernel and Edge-AI (local) execution addresses the requirement for service continuity without dependence on extraterritorial cloud infrastructures.
+
+Reference: From the Japanese Sentinel to European Resilience: Strategic Architecture of Sovereign AI and Inclusive Robotics (February 2026).
+
+Focus: Safety (operational reliability), resilient distributed systems, and protection of health data.
+
+## [SovereignAI_Autonomy_WhitePaper.pdf](https://github.com/user-attachments/files/25595696/SovereignAI_Autonomy_WhitePaper.pdf)
+[Sovereign_AI_Transhumanism.pdf](https://github.com/user-attachments/files/25595695/Sovereign_AI_Transhumanism.pdf)
+[From_Japanese_Sentinel_to_European_Resilience.pdf](https://github.com/user-attachments/files/25595687/From_Japanese_Sentinel_to_European_Resilience.pdf)
+[AEGIS_WhitePaper.pdf](https://github.com/user-attachments/files/25595682/AEGIS_WhitePaper.pdf)
+3. Normative Framework and Supply Chain Governance
+The integrity of the framework is governed by the OpenChain (ISO/IEC 5230) standard. Every component, from low-level C++ layers to Java/Go interfaces, is subject to a software supply chain compliance audit (Software Bill of Materials - SBOM).
+
+Reference: Sovereign Artificial Intelligence in Service of Autonomy and Inclusion (February 2026).
+
+Focus: Supply chain transparency, alignment with the AI Act (Articles 9 to 17), and systemic risk management.
+
 **Founder:** Polyglot Programmer (C/C++, Python, SQL) | Unix Expert since 1977.
 **Location:** Meaux, France.
 **Contact:** contact@iaauteco.ovh
