@@ -83,12 +83,57 @@ Focus: Safety (operational reliability), resilient distributed systems, and prot
 [From_Japanese_Sentinel_to_European_Resilience.pdf](https://github.com/user-attachments/files/25595687/From_Japanese_Sentinel_to_European_Resilience.pdf)
 [AEGIS_WhitePaper.pdf](https://github.com/user-attachments/files/25595682/AEGIS_WhitePaper.pdf)
 # 3. Normative Framework and Supply Chain Governance
+# IA_AUT_ECO: Cognitive Life Insurance & Sovereign Assistive Robotics
+
+We do not build gadgets; we engineer Cognitive Life Insurance. **IA_AUT_ECO** establishes the definitive industrial standard for secure, auditable, and ethical assistive robotics. 
+
+In an environment where physical safety and energy continuity are paramount, we treat energy not as a marketing narrative, but as the ultimate parameter of technical mastery. By enforcing absolute energy control and autarky within a closed-loop environment, we guarantee the unyielding sovereignty and profound tranquility of the individuals we protect.
+
+Sovereignty at IA_AUT_ECO is not a marketing slogan; it is a hard-coded, compile-time mandate.
+
+---
+
+## ⚡ Energy Determinism & Sovereign Autarky
+
+Traditional medical devices operate as passive energy sinks. We redefine the relationship between assistive robotics and the physical infrastructure of healthcare institutions through three core engineering pillars:
+
+### 1. V2M (Vehicle-to-Medical) Power Distribution
+Healthcare institutions host dozens of electric wheelchairs and assistive robots. Currently, these represent passive loads straining the facility's power grid.
+* **The Architecture:** We transform this fleet into a massive, intelligent distributed battery.
+* **The Protocol:** By utilizing open energy protocols, our wheelchairs and robots are capable of bidirectional power transfer. They can inject electricity back into the building during peak consumption (**Peak Shaving**) or critical power outages. The wheelchair ceases to be a mere mobility tool; it becomes a guarantor of the institution's energy resilience.
+
+### 2. Algorithmic "Néga-Watt" Efficiency
+Traditional manufacturers attempt to solve operational autonomy by packing in larger, heavier batteries—a physical dead end that compromises mobility and hardware longevity.
+* **The Architecture:** We combat energy waste directly at the code level.
+* **The Protocol:** By programming as close to the metal as possible (using C/C++ and optimized matrix computation), we drastically reduce the electrical consumption of our navigation AI and motor kinematics. By unlocking a **30% energy reduction** purely through software efficiency, we offer total autonomy without increasing hardware weight.
+
+### 3. Open Source Institutional Microgrids
+Hospitals and care facilities operate under the constant threat of grid blackouts. Relying on carbon-heavy diesel generators is a limited and fragile standard.
+* **The Architecture:** We provide institutions with a complete, unified "Robotics + Energy" ecosystem.
+* **The Protocol:** Our robots and wheelchairs natively interface with local microgrids (rooftop solar arrays + localized storage batteries). IA_AUT_ECO operates as the central conductor, ensuring that regardless of external grid failures, the care of the individual continues to operate in total, self-sustained autarky.
+
+---
+
+## 💻 The Core Technology Stack
+
+Safety here is deterministic, not probabilistic. **AI proposes, the Kernel decides.** * **Winterhold OS (FreeBSD Foundation):** The social contract of the kernel. We isolate our AI agents at the lowest level using Capsicum and Jails security primitives.
+* **C/C++ Excellence:** Hardware-level proximity for real-time performance and absolute determinism.
+* **Java & Go (The Agora):** Industrial stability and decentralized network communications for secure external piloting and distributed assistance, strictly fulfilling our **"Zero-Cloud"** mandate.
+
+---
+
+## 🤝 Get Involved
+
+We are actively securing the Digital Commons of tomorrow. To review our open architectures, audit our security primitives, or collaborate on energy protocols:
+
+* **Official Repository:** [github.com/IAAUTECO-inc](https://github.com/IAAUTECO-inc)
+* **License:** Open Source, audited, and strictly engineered for public interest.
 The integrity of the framework is governed by the OpenChain (ISO/IEC 5230) standard. Every component, from low-level C++ layers to Java/Go interfaces, is subject to a software supply chain compliance audit (Software Bill of Materials - SBOM).
 
 Reference: Sovereign Artificial Intelligence in Service of Autonomy and Inclusion (February 2026).
 
 Focus: Supply chain transparency, alignment with the AI Act (Articles 9 to 17), and systemic risk management.
 
-**Founder:** Polyglot Programmer (C/C++, Python, SQL) | Unix Expert since 1977.
+**Founder:** Polyglot Programmer (C/C++, Python, SQL) 
 **Location:** Meaux, France.
 **Contact:** contact@iaauteco.ovh
